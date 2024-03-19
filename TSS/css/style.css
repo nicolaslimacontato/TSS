@@ -1,0 +1,180 @@
+/* #region global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani';
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+:root {
+    --text-superhero: 4em;
+    --text-hero: 3em;
+    --text-title: 2em;
+    --text-subtitle: 1.5em;
+    --text-body: 1em;
+    --text-small: .8em;
+}
+
+/* #endregion */
+
+/* #region menu */
+
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: (255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+
+    .carousel-container{
+        display: none;
+    }
+
+    .col-md-4 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+
+}
+
+@media (max-width:761px) {
+    
+    .logoConatiner{
+        margin-right: 9rem;
+    }
+    
+    .topContainer {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 496px) {
+    .contatoTopHome {
+        width: 50%;
+    }
+}
+
+.navbar {
+    transition: .5s;
+}
+
+.navbar-scrolled {
+    transition: .5s;
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width:753px){
+    footer .robson{
+        display: none;
+    }
+
+    .localizaImg{
+        width: 50%;
+        margin: 0 1em;
+    }
+}
+
+/* #endregion */
+
+/* #region Top */
+
+header {
+    width: 100%;
+    background-image: url('../img/bgTop.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+#top {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+header .logoConatiner {
+    margin-left: 9em;
+}
+
+/* #endregion */
+
+
+/* #region main home */
+
+#homeContent {
+    height: auto;
+}
+
+.contentCards {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin: 11em 0;
+}
+
+.paragrafos a{
+    color: white;
+}
+
+.card1 h1{
+    font-weight: 500;
+}
+
+/* #endregion */
+
+/* #region footer */
+
+footer {
+    background-image: url('../img/bgTop.png');
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footerContainer{
+    width: 86%;
+}
+
+
+footer .robson{
+    right: 0;
+    width: 23%;
+}
+
+.localizaImg{
+    width: 5%;
+    margin: 0 1em;
+}
+
+.localizaFooter{
+    margin: 0 auto;
+}
+
+.logofooter{
+    margin-left: 3em;
+}
+
+/* #endregion */
+
