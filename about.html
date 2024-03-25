@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- myCss -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>TSS-Sobre Nós</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-md-3 bg-black">
+            <div class="container">
+                <!-- hamburguer -->
+                <button class="navbar-toggler shadow-none border-0 ms-auto" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- SideBar -->
+                <div class="sidebar offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <!-- SideBar Header -->
+                    <div class="offcanvas-header text-white border-bottom">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">TSS</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <!-- SideBar Body -->
+                    <div class="offcanvas-body d-flex flex-column p-4 flex-lg-row p-lg-0">
+                        <ul class="navbar-nav justify-content-evenly align-items-center fs-4 flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" aria-current="page" href="index.html"><i
+                                        class="bi bi-house-door-fill"></i></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="about.html">Sobre Nós</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="services.html">Serviços</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="contact.html">Contato</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="portfolio.html">Portfólio</a>
+                            </li>
+                        </ul>
+                        <div
+                            class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 ms-lg-auto fs-5">
+                            <a href="login.html" class="text-white text-decoration-none">Login</a>
+                            <a href="signup.html"
+                                class="text-white text-decoration-none px-3 py-1 bgbotaosingup rounded-4">Cadastre-se</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="about">
+        <div class="swiper aboutContainer aboutInner">
+            <h2>Sobre a TSS</h2>
+            <div class="swiper-wrapper aboutBase shadow-lg">
+                <!-- card1 -->
+                <div class="cardAbout swiper-slide">
+                    <ul>
+                        <li>
+                            <img src="img/Beatriz.jpg" alt="perfil1">
+                        </li>
+                        <li>
+                            <h4>Beatriz</h4>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </li>
+                        <li class="cardCargo">
+                            <h4>Analista</h4>
+                        </li>
+                        <li class="socialMedia">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- card2 -->
+                <div class="cardAbout swiper-slide">
+                    <ul>
+                        <li>
+                            <img src="img/Yuri.jpg" alt="perfil1">
+                        </li>
+                        <li>
+                            <h4>Yuri</h4>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </li>
+                        <li class="cardCargo">
+                            <h4>Especialista</h4>
+                        </li>
+                        <li class="socialMedia">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- card3 -->
+                <div class="cardAbout swiper-slide">
+                    <ul>
+                        <li>
+                            <img src="img/Nicolau.png" alt="perfil1">
+                        </li>
+                        <li>
+                            <h4>Nicolas</h4>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </li>
+                        <li class="cardCargo">
+                            <h4>Desenvolvedor</h4>
+                        </li>
+                        <li class="socialMedia">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- card4 -->
+                <div class="cardAbout swiper-slide">
+                    <ul>
+                        <li>
+                            <img src="img/Eduardo.jpg" alt="perfil1">
+                        </li>
+                        <li>
+                            <h4>Eduardo</h4>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </li>
+                        <li class="cardCargo">
+                            <h4>Analista</h4>
+                        </li>
+                        <li class="socialMedia">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- card5 -->
+                <div class="cardAbout swiper-slide">
+                    <ul>
+                        <li>
+                            <img src="img/Larissa.jpg" alt="perfil1">
+                        </li>
+                        <li>
+                            <h4>Larissa</h4>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                        </li>
+                        <li class="cardCargo">
+                            <h4>Designer</h4>
+                        </li>
+                        <li class="socialMedia">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- card6 -->
+                <div class="cardAbout swiper-slide">
+                    <ul>
+                        <li>
+                            <img src="img/Gustavo.jpg" alt="perfil6">
+                        </li>
+                        <li>
+                            <h4>Gustavo</h4>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </li>
+                        <li class="cardCargo">
+                            <h4>Consultor</h4>
+                        </li>
+                        <li class="socialMedia">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- controles -->
+                <div class="swiper-button-next myNext"></div>
+                <div class="swiper-button-prev myPrev"></div>
+                <div class="swiper-pagination myPage"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerContainer align-items-center">
+            <div class="localizaCenter d-flex text-center">
+                <img class="logofooter" src="img/logo.png" alt="">
+                <div class="localizaFooter d-flex align-items-center justify-content-center">
+                    <img class="localizaImg" src="img/localizaPing.png" alt="">
+                    <div class="paragrafos flex-column">
+                        <p class="border-bottom border-3">Endereço: Avenida Marechal Tito, 1500 <br>
+                            <nobr>São Miguel Paulista, São Paulo SP, 08010-090</nobr>
+                        </p>
+                        <div>
+                            <a href="">Clique aqui para ver no mapa!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="robson position-absolute bottom-0 right-0 img-fluid" src="img/robson.png" alt="">
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- myScript -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>
